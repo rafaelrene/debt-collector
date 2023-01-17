@@ -9,6 +9,7 @@
 		const { error } = await supabaseClient.auth.signOut();
 
 		if (error !== null) {
+			// TODO: Handle error on FE
 			console.log(error);
 		}
 
