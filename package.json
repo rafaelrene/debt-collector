@@ -3,6 +3,7 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
+		"start": "pnpm dev --open",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
@@ -29,9 +30,9 @@
 		"vite": "^4.0.0",
 		"vitest": "^0.25.3"
 	},
-	"type": "module",
 	"dependencies": {
-		"@auth/core": "^0.2.5",
-		"@auth/sveltekit": "^0.1.12"
-	}
+		"@supabase/auth-helpers-sveltekit": "^0.8.6",
+		"@supabase/supabase-js": "^2.4.0"
+	},
+	"type": "module"
 }
